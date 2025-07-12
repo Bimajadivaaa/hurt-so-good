@@ -2,7 +2,7 @@ function sumArray(arr) {
   var total = 0;
 
   for (let i in arr) {
-    total += arr[i];
+    total = total + arr[i];
   }
 
   return total;
