@@ -1,3 +1,22 @@
+// function reverseString(str){
+//   const reverse = str.split("").reverse().join("");
+//   return reverse;
+// }
+// console.log(reverseString('bima'))
+
+function reverseString(str){
+  value = ''
+
+  for(let i = str.length - 1 ; i >= 0 ; i--){
+    value += str[i]
+  }
+
+  return value;
+
+
+}
+console.log(reverseString('bima'))
+
 // // Cara pertama
 function reverseString(str) {
   var splitString = str.split("");

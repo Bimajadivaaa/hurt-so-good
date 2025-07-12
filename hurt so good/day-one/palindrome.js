@@ -29,3 +29,17 @@ function isPalindrome(str) {
   return rev === str.toLowerCase() ? "Palindrome" : "Bukan Palindrome";
 }
 console.log(isPalindrome("Kasur Ini Rusak"));
+
+function isPalindrome(str) {
+  value = "";
+
+  for (let i = str.length - 1; i >= 0; i--) {
+    value += str[i];
+  }
+
+  return str === value ? "Palindrome" : "Bukan Palindrome";
+}
+console.log(isPalindrome("katak"));
+console.log(isPalindrome("bima"));
+
+
